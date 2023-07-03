@@ -1,7 +1,6 @@
 describe('Cypress interaction with Tutorialspoint', () => {
     beforeEach(() => {
-        cy.visit('https://www.tutorialspoint.com/html/html_iframes.htm');
-        //cy.goto('/');
+        cy.visit('/html/html_iframes.htm');
     })
 
     it('Performs tasks and logs results', () =>{

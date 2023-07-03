@@ -11,9 +11,9 @@ class Feature {
 
 class Page {
     constructor () {
-        this.iframe = Selector('iframe', {timeout: 10000});
-        this.iframeCookiesAccept = this.iframe.find('a').withExactText('Agree');
-        this.iframeAboutUsBtn = this.iframe.find('a').withText('About us');
+        this.iframe = Selector('.result', {timeout: 10000});
+        this.iframeCookiesAccept = Selector('#banner-accept');
+        this.iframeAboutUsBtn = Selector('a').withText('About us');
         this.nameInput             = Selector('#developer-name');
         this.triedTestCafeCheckbox = Selector('#tried-test-cafe');
         this.populateButton        = Selector('#populate');

@@ -1,4 +1,5 @@
 module.exports = {
     "src": "tests",
-    "skipJsErrors": true
+    "skipJsErrors": true,
+    "baseUrl": "https://www.tutorialspoint.com"
 }

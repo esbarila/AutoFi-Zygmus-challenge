@@ -5,7 +5,7 @@ module.exports = defineConfig({
   viewportWidth: 1920,
   viewportHeight: 1080,
   e2e: {
-    baseUrl: "https://www.tutorialspoint.com/html/html_iframes.htm",
+    baseUrl: "https://www.tutorialspoint.com",
     setupNodeEvents(on, config) {
       on('task', {        
         setUserData: (userData) => {

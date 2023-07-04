@@ -4,7 +4,8 @@
   "description": "QA challenge for Autofi",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --headed"
+    "test": "npx cypress run --headed",
+    "demo": "npx testcafe chrome testcafe/tests/tutorialspoint.js"
   },
   "keywords": [],
   "author": "",

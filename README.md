@@ -22,3 +22,6 @@ Unlike Cypress. See more context in the code [comments](/testcafe/tests/tutorial
 
 ### Output file
 output.log will be generated at the root directory after running the interaction.
+
+### Video demo:
+https://github.com/esbarila/AutoFi-Zygmus-challenge/assets/47305731/5888333b-32cf-403b-a754-94ef05a26e2e

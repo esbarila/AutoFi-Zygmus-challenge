@@ -73,6 +73,8 @@ test('Performs tasks and logs results', async t => {
     });
 
     //Create an account and Log into the site.
+    await t.click(page.loginBtn);
+    await t.click(page.signUpBtn);
     /*
     There's an issue here with Tutorial's Point.
     Signup form requires:

@@ -13,12 +13,13 @@ Having node and npm previously installed:
     1. `npm run demo`
 
 ### Notes
-I first attempted to make this interaction with Cypress, which is a very robust testing framework.
-But I had issues with the runner that seem native to cypress: [Issue](https://github.com/cypress-io/cypress/issues/27185)
-I was able to get by with another Testing framework, Testcafe.
-But its fairly limited and I wasn't able to Sign Up and login.
-I would normally use a request() function provided, but Testcafe can't handle headers yet.
-Unlike Cypress. See more context in the code [comments](/testcafe/tests/tutorialspoint.js).
+I first attempted to make this interaction with Cypress, which is a very robust testing framework.\
+But I had issues with the runner that seem native to cypress: [Issue](https://github.com/cypress-io/cypress/issues/27185)\
+I was able to get it done with another Testing framework, Testcafe.\
+But its fairly limited and I wasn't able to Sign Up and login.\
+I would normally use a request() function provided by the framework, but Testcafe can't handle headers yet.\
+(I could do it with cypress). See more context in the code [comments](/testcafe/tests/tutorialspoint.js).\
+[An issue arised with Testafe that may break the test](https://github.com/DevExpress/testcafe/issues/7865)
 
 ### Output file
 output.log will be generated at the root directory after running the interaction.

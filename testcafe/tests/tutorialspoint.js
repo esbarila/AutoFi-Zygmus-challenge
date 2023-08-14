@@ -1,6 +1,5 @@
-import { Selector } from 'testcafe';
+import { Selector, ClientFunction } from 'testcafe';
 import page from './page-model';
-import { ClientFunction } from 'testcafe';
 import fs from 'fs';
 
 fixture `Testcafe interaction with Tutorialspoint`
